@@ -12,13 +12,13 @@ The project builds a multiplier from transistor-level logic cells and examines t
 
 ## Storage cells
 
-![D-latch schematic](docs/figures/latch-schematic.png)
+![D-latch schematic](docs/figures/latch-schematic.svg)
 
 *Figure 1. Reference D-latch topology from the design specification. The implemented standalone latch inverts the clock to make its enable active when CLK is low.*
 
 The standalone latch uses 20 MOSFETs. It is transparent while the clock is low and holds data when the clock is high. Its saved stimulus creates a narrow data pulse around the closing edge at 10 ns.
 
-![Master–slave D flip-flop schematic](docs/figures/dff-schematic.png)
+![Master–slave D flip-flop schematic](docs/figures/dff-schematic.svg)
 
 *Figure 2. Master–slave DFF topology from the design specification. Opposite latch phases produce nominal rising-edge capture.*
 
@@ -38,6 +38,7 @@ These are **scheduled stimulus offsets**, not independently extracted setup/hold
 *Figure 3. Full-adder reference circuit from the design specification. Two half-adder stages with complemented carry outputs feed a final NAND carry-combining gate.*
 
 The `HA_C` cell uses four NAND2 gates and produces sum plus complemented carry. `HA` adds an inverter to provide true carry. `FA` uses two HA_C instances and one NAND2, for 36 MOSFETs.
+
 
 ![Wallace reduction schematic](docs/figures/wallace-tree.png)
 
