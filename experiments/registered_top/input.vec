@@ -1,0 +1,17 @@
+; start of Vector Pattern Definition section
+RADIX 44    44
+VNAME A[7:0] B[7:0]   
+IO II  II   
+TUNIT ns
+
+VIH 1.8
+VOH 1.6
+VIL 0
+VOL 0.2
+
+; start of Tabular Data section
+00.0    00  00
+10.0    F9  FF
+20.0    32  A9
+30.0    FF  FF
+40.0    88  67

@@ -1,0 +1,5 @@
+experiment,measurement,value_ps,status,limitation
+full_adder,A_to_S,,failed,trigger A never crosses after 60 ns
+cla16,A0_to_S15,420.1363,measured_with_defect,B15 port miswired; 1 V inputs on 1.8 V supply
+wallace8,A0_to_M15,707.0566,selected_transition,not exhaustive worst-case timing
+registered_top,maximum_frequency,,not_established,vector drives A/B rather than A_in/B_in

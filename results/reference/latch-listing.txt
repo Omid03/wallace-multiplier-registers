@@ -1,0 +1,6 @@
+  **warning** (v_$vclk:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$vclk:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$vclk:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$vclk:0) pulse fall time is  < or = zero, reset to tstep
+          ***** job concluded
+  # jfets       =       0 # mosfets    =      20 # U elements  =       0

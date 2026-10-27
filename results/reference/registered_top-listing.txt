@@ -1,0 +1,25 @@
+  **warning** (v_$vclk:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$vclk:0) pulse fall time is  < or = zero, reset to tstep
+ Warning:'No DC path nodes' occurs 16 times
+ No DC path from the following nodes,connected with gdcpath:
+ |a_in0     |0         |
+ |a_in1     |0         |
+ |a_in2     |0         |
+ |a_in3     |0         |
+ |a_in4     |0         |
+ |a_in5     |0         |
+ |a_in6     |0         |
+ |a_in7     |0         |
+ |b_in0     |0         |
+ |b_in1     |0         |
+  **warning** (v_$vclk:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$vclk:0) pulse fall time is  < or = zero, reset to tstep
+ +   0:a6      =   0.         0:a7      =   0.         0:a_in0   =   0.     
+ +   0:a_in1   =   0.         0:a_in2   =   0.         0:a_in3   =   0.     
+ +   0:a_in4   =   0.         0:a_in5   =   0.         0:a_in6   =   0.     
+ +   0:a_in7   =   0.         0:b0      =   0.         0:b1      =   0.     
+ +   0:b_in0   =   0.         0:b_in1   =   0.         0:b_in2   =   0.     
+ +   0:b_in3   =   0.         0:b_in4   =   0.         0:b_in5   =   0.     
+ +   0:b_in6   =   0.         0:b_in7   =   0.         0:clk     =   0.     
+          ***** job concluded
+  # jfets       =       0 # mosfets    =    4342 # U elements  =       0

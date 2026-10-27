@@ -1,0 +1,4 @@
+  **warning** (A)FA.sp:58) .MEASURE tdelay never reached the trigger value, Measurement failed! 
+   tdelay= failed                          trig= not found
+          ***** job concluded
+  # jfets       =       0 # mosfets    =      36 # U elements  =       0

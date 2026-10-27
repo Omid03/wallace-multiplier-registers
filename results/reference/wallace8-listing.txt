@@ -1,0 +1,3 @@
+ tdelay= 707.0566p  targ=  40.7571n   trig=  40.0500n
+          ***** job concluded
+  # jfets       =       0 # mosfets    =    3062 # U elements  =       0

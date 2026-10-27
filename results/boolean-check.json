@@ -1,0 +1,7 @@
+{
+  "method": "ideal AND/HA/FA/CLA4 evaluation of extracted Wallace connectivity",
+  "input_pairs": 65536,
+  "mismatches": 0,
+  "analog_simulation": false,
+  "transistor_subcircuits_verified": false
+}

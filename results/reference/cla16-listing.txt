@@ -1,0 +1,5 @@
+  **warning** node b15 can't be found, so its signal will be ignored
+ tdelay= 420.1363p  targ=  40.5101n   trig=  40.0900n
+ tdelay= 420.1363p  targ=  40.5101n   trig=  40.0900n
+          ***** job concluded
+  # jfets       =       0 # mosfets    =    1040 # U elements  =       0
