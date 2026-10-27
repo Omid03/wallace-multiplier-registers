@@ -39,8 +39,9 @@ These are **scheduled stimulus offsets**, not independently extracted setup/hold
 
 The `HA_C` cell uses four NAND2 gates and produces sum plus complemented carry. `HA` adds an inverter to provide true carry. `FA` uses two HA_C instances and one NAND2, for 36 MOSFETs.
 
-
-![Wallace reduction schematic](docs/figures/wallace-tree.png)
+![Half Adder schematic](docs/figures/HalfAdders.svg)
+![Full Adder schematic](docs/figures/FullAdder.svg)
+![Wallace reduction schematic](docs/figures/wallace-tree.svg)
 
 *Figure 4. Detailed partial-product generation and four-stage reduction network. A high-resolution vector version is available in the [multiplier schematic](docs/design/multiplier-schematic.pdf).*
 
