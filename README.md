@@ -12,7 +12,7 @@ The project builds a multiplier from transistor-level logic cells and examines t
 
 ## Storage cells
 
-![D-latch schematic](docs/figures/latch-schematic.svg)
+![D-latch schematic](docs/figures/latch-sch.svg)
 
 *Figure 1. Reference D-latch topology from the design specification. The implemented standalone latch inverts the clock to make its enable active when CLK is low.*
 
